@@ -1,17 +1,17 @@
 @use '../../constants/colors' as colors;
 
 .wrapper{
-    border: 2px solid red;
     width: 100%;
     padding: 1rem;
     margin-bottom: .55rem;
     .text_container{
         color: colors.$white;
         text-align: left;
-        border: 1px solid colors.$white;
+        border: 1px solid colors.$brown;
         margin-bottom: .5rem;
         border-radius: 4px;
         padding: 1rem .55rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
         .title{
             font-weight: bold;
             font-size: 1.25rem;
@@ -23,8 +23,7 @@
         }
 
     }
-    .content{
-        border: 2px solid red;
+    .content{   
         display: flex;
         justify-content: center;
         align-items: center;

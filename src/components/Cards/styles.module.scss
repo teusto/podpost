@@ -1,6 +1,12 @@
+@use '../../constants/colors' as colors;
+
 .wrapper{
-    border: 2px solid red;
+    border: 2px solid colors.$brown;
     width: 220px;
     height: 280px;
     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    margin: .55rem;
+    display: flex;
+    text-align: center;
 }
