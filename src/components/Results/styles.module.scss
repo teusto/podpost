@@ -1,18 +1,71 @@
 @use '../../constants/colors' as colors;
 
 .wrapper{
-    border: 2px solid red;
+    //border: 2px solid red;
     width: 100%;
     padding: .25rem;
     display: flex;
+    flex-wrap: nowrap;
     .container{
         border: 2px solid red;
         padding: 1rem;
         display: flex;
         flex-direction: column;
-        .button{
-            border: none;
-            background-color: colors.$brown;
+        width: 30%;
+        .linkedin_container{
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            aspect-ratio: 3 / 2;
+            display: flex;
+            flex-direction: column;
+            padding: .85rem;
+            .top{
+                //border: 2px solid red;
+                flex: 1;
+            }
+            .mid{
+                //border: 2px solid red;
+                flex: 3;
+            }
+            .bottom{
+                //border: 2px solid red;
+                flex: .8;
+            }
+        }
+        .x_container{
+            background-color: #063130;
+            border-radius: 6px;
+            aspect-ratio: 3 / 2;
+            display: flex;
+            flex-direction: column;
+            padding: .85rem;
+            .top{
+                //border: 2px solid red;
+                flex: 1;
+            }
+            .mid{
+                //border: 2px solid red;
+                flex: 3;
+            }
+            .bottom{
+                //border: 2px solid red;
+                flex: .8;
+            }
+        }
+        .btn_container{
+            margin-top: 1rem;
+            width: 100%;
+            //border: 2px solid red;
+            .button{
+                border: none;
+                background-color: colors.$green;
+                border: 1px solid colors.$white;
+                padding: .55rem 1.55rem;
+                color: colors.$white;
+                font-weight: bold;
+                border-radius: 2px;
+                font-size: 1.1rem;
+            }
         }
     }
 }

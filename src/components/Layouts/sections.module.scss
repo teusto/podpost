@@ -3,12 +3,13 @@
 .wrapper{
     width: 100%;
     padding: 1rem;
-    margin-bottom: .55rem;
+    margin-bottom: 2rem;
     .text_container{
         color: colors.$white;
         text-align: left;
         border: 1px solid colors.$brown;
-        margin-bottom: .5rem;
+        background-color: colors.$bgtransparent;
+        margin-bottom: 1.55rem;
         border-radius: 4px;
         padding: 1rem .55rem;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
@@ -18,8 +19,9 @@
             margin-bottom: .25rem;
         }
         .text{
-            font-weight: 100;
+            font-weight: 200;
             font-size: .85rem;
+            color: colors.$green;
         }
 
     }

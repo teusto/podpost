@@ -9,4 +9,12 @@
     margin: .55rem;
     display: flex;
     text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: colors.$brown;
+    }
 }
